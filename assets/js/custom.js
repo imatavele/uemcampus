@@ -34,4 +34,5 @@ document.addEventListener('DOMContentLoaded', function() {
 
     //M.Dropdown.init(document.querySelectorAll('.dropdown-trigger'), {});
      document.getElementById("thisyear").innerText = new Date().getFullYear();
+
 });
