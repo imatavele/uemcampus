@@ -1,0 +1,92 @@
+{% extends 'djangoleaflet_base_layout.html' %}
+{% block content %}
+    <div class="row">
+        <div class="col s12 l3">
+            {% include 'includes/registar-menu.html' %}
+        </div>
+        <div class="col s12 l9">
+        	<p>Geocampus em números</p>
+        	<div class="divider"></div>
+        	<div class="col s12 l4 equal-height">
+        		<table>
+            		<tr>
+            			<th>Total de salas</th>
+            			<td>{{ salas }}</td>
+            		</tr>
+            		<tr>
+            			<th>Salas administrativas</th>
+            			<td>{{ salasadministrativas }}</td>
+            		</tr>
+            		<tr>
+            			<th>Bibliotecas</th>
+            			<td>{{ bibliotecas }}</td>
+            		</tr>
+            		<tr>
+            			<th>Salas de docentes</th>
+            			<td>{{ salasdedocentes }}</td>
+            		</tr>
+            		<tr>
+            			<th>Pontos de lazer</th>
+            			<td>{{ lazer }}</td>
+            		</tr>
+            		<tr>
+            			<th>Reprografias</th>
+            			<td>{{ reprografias }}</td>
+            		</tr>
+            	</table>
+            </div>
+            <div class="col s12 l4 equal-height">
+            	<table>
+            		<tr>
+            			<th>Serviços</th>
+            			<td>{{ servicos }}</td>
+            		</tr>
+            		<tr>
+            			<th>Cantinas</th>
+            			<td>{{ cantinas }}</td>
+            		</tr>
+            		<tr>
+            			<th>Produtos</th>
+            			<td>{{ produtos }}</td>
+            		</tr>
+            		<tr>
+            			<th>Bancos</th>
+            			<td>{{ bancos }}</td>
+            		</tr>
+            		<tr>
+            			<th>Balcões</th>
+            			<td>{{ balcoes }}</td>
+            		</tr>
+            		<tr>
+            			<th>ATMs</th>
+            			<td>{{ atm }}</td>
+            		</tr>
+            	</table>
+            </div>
+            <div class="col s12 l4 equal-height">
+            	<table>
+            		<tr>
+            			<th>Portões</th>
+            			<td>{{ portoes }}</td>
+            		</tr>
+            		<tr>
+            			<th>Sanitários</th>
+            			<td>{{ sanitarios }}</td>
+            		</tr>
+                    <tr>
+                        <th>Edifícios</th>
+                        <td>{{ edificios }}</td>
+                    </tr>
+                    <tr>
+                        <th>Parques</th>
+                        <td>{{ parques }}</td>
+                    </tr>
+                    <tr>
+                        <th>Paragens</th>
+                        <td>{{ paragens }}</td>
+                    </tr>
+            	</table>
+            </div>
+        </div>
+    </div>
+{% endblock content %}

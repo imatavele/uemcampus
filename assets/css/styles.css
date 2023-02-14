@@ -1,0 +1,144 @@
+body{
+	color: #000;
+	display: flex;
+	min-height: 100vh;
+	flex-direction: column;
+}
+
+main{
+	flex: 1 0 auto;
+}
+
+html {
+  	scroll-behavior: smooth;
+}
+
+nav {
+    background-color: #339933; /*#003300; #999900*/;
+}
+
+nav .btn{
+	background-color: #339933 !important;
+	border: 2px solid #ffffcc;
+	border-bottom-left-radius: 20px !important;
+}
+
+#id_geom, #id_geom-map ~ p{
+	/*display: none;*/
+}
+
+.highlight{
+	/*background-color: #ffffcc !important;
+	color: #339933 !important;*/
+	border-top-right-radius: 20px !important;
+}
+
+.sidebar-header, .sidebar-tabs>ul>li.active, .sidebar-pane .btn{
+	background-color: #339933 !important;
+}
+
+
+#campus_imap{
+	width: 100%;
+	height: 400px;
+}
+
+#campus_imap_search{
+	margin-top: 15px;
+}
+#sidebar{
+	height: 90% !important;
+}
+.site-form{
+	padding: 20px;
+	margin-top: 20px;	
+}
+.site-form input, .site-form textarea{
+	display: block;
+	margin: 20px 0 0 0;
+	padding: 10px;
+}
+.site-form input[type=submit]{
+	background-color: #339933;
+	color: #ffffcc;
+	border: 2px solid #ffffcc;
+	cursor: pointer;
+	border-radius: 5px;
+	padding-right: 20px;
+	padding-left: 20px;
+}
+
+.page-footer{
+	background-color: #ffffcc;
+	color: #339933 !important;
+}
+
+.page-footer a {
+	text-decoration: none;
+	color: #339933;
+}
+
+.thisyear{
+	color: #339933;
+}
+
+.footer-copyright{
+	border-top: 2px solid #339933;
+}
+
+section{
+	/*height: 100vh;
+	overflow: auto;
+	padding-left: 55px;
+	padding-right: 55px;
+	padding-top: 100px;*/
+}
+/* Hide scrollbar for Chrome, Safari and Opera */
+section::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+section {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+p.flow-text{
+	font-size: 1.2em !important;
+}
+.justify{
+	text-align: justify;
+}
+
+.mt0 {
+	margin-top: 0 !important;
+}
+
+#hqmap{
+	width: 100%;
+	height: 460px !important;
+	/*border: 1px dashed #000;*/
+}
+#webmap{
+	width: 100%;
+	height: 500px !important;
+}
+
+.info {
+	border: 1px solid #000;
+    padding: 6px 8px;
+    font: 14px/16px Arial, Helvetica, sans-serif;
+    background: #b2e2e2;
+    /*background: rgba(255,255,255,0.8);*/
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+    border-radius: 5px;
+}
+.info b {
+    margin: 0 0 5px;
+    color: #777;
+}
+
+
+
+

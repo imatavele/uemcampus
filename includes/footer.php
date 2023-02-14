@@ -1,0 +1,65 @@
+</main>
+<footer class="page-footer">
+	<div class="fluid-container">
+		<div class="row">
+            <div class="col l6 s12">
+            	
+            	<img src="assets/img/uem-logo.png" width="50"> 
+                <h5 class="mt0">Geocampus</h5>
+                <p>Mapa Interativo do Campus Principal da UEM</p>
+            </div>
+            <div class="col l6 s12">
+                <h5>Links úteis</h5>
+                <ul>
+                	<li><a target="_blank" href="https://www.uem.mz">UEM</a></li>
+                    <li><a target="_blank" href="https://www.ciencias.uem.mz">Faculdade de Ciências</a></li>
+                    <li><a target="_blank" href="https://dmi.uem.mz">DMI</a></li>
+                </ul>
+            </div>
+    	</div>
+	</div>
+	<div class="footer-copyright">
+        <div class="container center">
+        	<div class="row">
+        		<!--<div class="col s12 m4">
+        			<a href="/termsandconditions">Termos e condições</a>
+        		</div>
+        		<div class="col s12 m4">
+        			<a href="/privacypolicy">Política de privacidade</a>
+        		</div>-->
+        		<div class="col s12 center thisyear">
+        			 © <span id="thisyear"></span> I.M.M.
+        		</div>
+        	</div>
+            <!--<a class="grey-text text-lighten-4 right" href="#!">More Links</a>-->
+        </div>
+	</div>
+</footer>
+
+		<script type="text/javascript" src="assets/js/materialize.min.js"></script>
+		<script type="text/javascript" src="assets/js/MaterilizeSelect.js"></script>
+		<script type="text/javascript" src="assets/js/jquery.min.js"></script>
+		<script src="assets/leaflet/leaflet.js"></script>
+		<script src="assets/leaflet/lib/sidebar/leaflet-sidebar.min.js"></script>
+		<script src="assets/leaflet/lib/routing-machine/leaflet-routing-machine.min.js"></script>
+		<script type="text/javascript" src="assets/leaflet/lib/popup/leaflet.responsive.popup.js"></script>
+		<script type="text/javascript" src="assets/js/turf.min.js"></script>
+		<script src="assets/leaflet/leaflet.markercluster.js"></script>
+		<script src="assets/leaflet/locate/L.Control.Locate.min.js"></script>
+		<script type="text/javascript" src="assets/js/custom.js"></script>
+		<script type="text/javascript" src="assets/js/snippets/initvars.js"></script>
+		<script type="text/javascript" src="assets/js/snippets/functions.js"></script>
+		<script type="text/javascript" src="assets/js/snippets/render/rotapontos.js"></script>
+		<script type="text/javascript" src="assets/js/snippets/render/edificios.js"></script>
+		<script type="text/javascript" src="assets/js/snippets/render/parques.js"></script>
+		<script type="text/javascript" src="assets/js/snippets/render/campus.js"></script>
+		<script type="text/javascript" src="assets/js/snippets/render/salas.js"></script>
+		<script type="text/javascript" src="assets/js/snippets/render/allfeatures.js"></script>
+		<script type="text/javascript" src="assets/js/snippets/render/initmap.js"></script>
+		<script type="text/javascript" src="assets/js/snippets/sidebar/parking.js"></script>
+		<script type="text/javascript" src="assets/js/snippets/sidebar/buildings.js"></script>
+		<script type="text/javascript" src="assets/js/snippets/sidebar/waypoints.js"></script>
+		<script type="text/javascript" src="assets/js/snippets/sidebar/rooms.js"></script>
+		<script type="text/javascript" src="assets/js/snippets/sidebar/directions.js"></script>
+	</body>
+</html>
